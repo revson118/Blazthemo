@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BlazeDemo Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Tests(failed)">
+    <classes>
+      <class name="tests.NegativeBookingTest">
+        <methods>
+          <include name="blankCreditCardTest"/>
+          <include name="tearDown"/>
+          <include name="invalidCreditCardTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.NegativeBookingTest -->
+      <class name="tests.FlightBookingTest">
+        <methods>
+          <include name="completeFlightBooking"/>
+          <include name="tearDown"/>
+          <include name="multipleBookings"/>
+          <include name="verifyHomePageLoads"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [BlazeDemo Suite] -->

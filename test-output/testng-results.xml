@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-18T16:39:15 IST" name="Default suite" finished-at="2026-02-18T16:39:28 IST" duration-ms="13313">
+    <groups>
+      <group name="functional">
+        <method signature="FlightBookingTest.completeFlightBooking()[pri:0, instance:tests.FlightBookingTest@5656be13]" name="completeFlightBooking" class="tests.FlightBookingTest"/>
+      </group> <!-- functional -->
+      <group name="data-driven">
+        <method signature="FlightBookingTest.multipleBookings(java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@5656be13]" name="multipleBookings" class="tests.FlightBookingTest"/>
+      </group> <!-- data-driven -->
+      <group name="smoke">
+        <method signature="FlightBookingTest.verifyHomePageLoads()[pri:0, instance:tests.FlightBookingTest@5656be13]" name="verifyHomePageLoads" class="tests.FlightBookingTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-02-18T16:39:15 IST" name="Default test" finished-at="2026-02-18T16:39:28 IST" duration-ms="13313">
+      <class name="tests.FlightBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:15 IST" name="setup" finished-at="2026-02-18T16:39:17 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeFlightBooking()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:17 IST" name="completeFlightBooking" finished-at="2026-02-18T16:39:19 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeFlightBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:19 IST" name="tearDown" finished-at="2026-02-18T16:39:19 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:19 IST" name="setup" finished-at="2026-02-18T16:39:21 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="multipleBookings(java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:21 IST" name="multipleBookings" data-provider="bookingData" finished-at="2026-02-18T16:39:23 IST" duration-ms="1915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111222233334444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleBookings -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:23 IST" name="tearDown" finished-at="2026-02-18T16:39:23 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:23 IST" name="setup" finished-at="2026-02-18T16:39:24 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="multipleBookings(java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:24 IST" name="multipleBookings" data-provider="bookingData" finished-at="2026-02-18T16:39:26 IST" duration-ms="1907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555666677778888]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleBookings -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:26 IST" name="tearDown" finished-at="2026-02-18T16:39:26 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:26 IST" name="setup" finished-at="2026-02-18T16:39:28 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageLoads()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:28 IST" name="verifyHomePageLoads" finished-at="2026-02-18T16:39:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@5656be13]" started-at="2026-02-18T16:39:28 IST" name="tearDown" finished-at="2026-02-18T16:39:28 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
